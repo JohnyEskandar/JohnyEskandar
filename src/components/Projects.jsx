@@ -10,13 +10,13 @@ export default function Projects() {
           Projects
         </h1>
         <div className='grid grid-cols-4 gap-4'>
-          <ProjectCard name='Personal Website' year='2024' tools='React.js, TailwindCSS, Netlify, JavaScript' gitLink='JohnyEskandar/idk yet' webLink='idk yet'>
+          <ProjectCard name='Personal Website' year='2024' tools='React.js, Vite TailwindCSS, Netlify, JavaScript' gitLink='JohnyEskandar/idk yet' webLink='idk yet'>
           This Website.
           </ProjectCard>
-          <ProjectCard name='Ginemenasaurus' year='2024' tools='React.js, TailwindCSS, Netlify, JavaScript' gitLink='JohnyEskandar/Ginemenasaurus-Gym-App' webLink='https://je-gym.netlify.app/'>
+          <ProjectCard name='Ginemenasaurus' year='2024' tools='React.js, Vite, TailwindCSS, Netlify, JavaScript' gitLink='JohnyEskandar/Ginemenasaurus-Gym-App' webLink='https://je-gym.netlify.app/'>
           Introducing <span className='font-bold'>Ginemenasaurus</span>: a fun, meme-inspired tool that customizes workout plans to match your fitness goals. From strength to endurance, it tailors routines that help you get big—really big.
           </ProjectCard>
-          <ProjectCard name='Todo List' year='2024' tools='React.js, Netlify, JavaScript' gitLink='JohnyEskandar/TodoList-Reactjs' webLink='https://je-todolist.netlify.app/'>
+          <ProjectCard name='Todo List' year='2024' tools='React.js, Netlify, Vite, JavaScript' gitLink='JohnyEskandar/TodoList-Reactjs' webLink='https://je-todolist.netlify.app/'>
           My first React Project. A simple todo list with a input, add, edit, and delete features.
           </ProjectCard>
           <ProjectCard name='Predictive Models' year='2024' tools='Python, Jupyter Notebook' gitLink='CSE217-SP24/hw-11-johnythomas'>
