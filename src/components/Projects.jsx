@@ -9,7 +9,7 @@ export default function Projects() {
         <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl inline-block border-b-2 my-8'>
           Projects
         </h1>
-        <div className='grid grid-cols-4 gap-4'>
+        <div className='flex flex-col lg:grid lg:grid-cols-4 gap-4'>
           <ProjectCard name='Personal Website' year='2024' tools='React.js, Vite TailwindCSS, Netlify, JavaScript' gitLink='JohnyEskandar/idk yet' webLink='idk yet'>
           This Website.
           </ProjectCard>

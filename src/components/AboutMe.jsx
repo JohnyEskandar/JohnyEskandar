@@ -13,7 +13,7 @@ export default function AboutMe() {
             Originally from Orange County, California, I am an undergraduate student at Washington University in St. Louis, majoring in Business and Computer Science with a focus on Data Science and AI. 
           </p>
           <p className='w-full mx-auto p-4'>
-            I am proficient in Java, JavaScript, Python, React.js, Netlify, HTML, CSS, and TailwindCSS. Currently, I am learning C++ and Next.js.
+            I am proficient in Java, JavaScript, Python, React.js, Netlify, HTML, CSS, and TailwindCSS. Currently, I am learning C++, Next.js, and SQL.
           </p>
           <p className='w-full mx-auto p-4'>
             In my free time I love playing Basketball, lifting weights, playing chess and listening to music. 
