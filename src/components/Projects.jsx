@@ -10,7 +10,7 @@ export default function Projects() {
           Projects
         </h1>
         <div className='flex flex-col lg:grid lg:grid-cols-4 gap-4'>
-          <ProjectCard name='Personal Website' year='2024' tools='React.js, Vite TailwindCSS, Netlify, JavaScript' gitLink='JohnyEskandar/idk yet' webLink='idk yet'>
+          <ProjectCard name='Personal Website' year='2024' tools='React.js, Vite TailwindCSS, Netlify, JavaScript' gitLink='JohnyEskandar/JohnyEskandar' webLink='https://johnye.netlify.app/'>
           This Website.
           </ProjectCard>
           <ProjectCard name='Ginemenasaurus' year='2024' tools='React.js, Vite, TailwindCSS, Netlify, JavaScript' gitLink='JohnyEskandar/Ginemenasaurus-Gym-App' webLink='https://je-gym.netlify.app/'>
