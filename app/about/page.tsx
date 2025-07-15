@@ -101,7 +101,14 @@ export default function About() {
             <div className="p-6 bg-white/5 rounded-lg border border-white/10">
               <h3 className="font-semibold text-slate-100 mb-3">Frontend</h3>
               <div className="flex flex-wrap gap-2">
-                {["React", "Next.js", "TypeScript", "Tailwind CSS"].map((skill) => (
+                {[
+                    "React",
+                    "Next.js",
+                    "TypeScript",
+                    "JavaScript",
+                    "Tailwind CSS",
+                    "HTML/CSS"
+                  ].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-indigo-500/10 text-indigo-300 text-sm rounded-full">
                     {skill}
                   </span>
@@ -113,7 +120,7 @@ export default function About() {
             <div className="p-6 bg-white/5 rounded-lg border border-white/10">
               <h3 className="font-semibold text-slate-100 mb-3">Backend</h3>
               <div className="flex flex-wrap gap-2">
-                {["Node.js", "Python", "PostgreSQL", "APIs"].map((skill) => (
+                {["Node.js", "Python", "FastAPI", "PHP", "MySQL", "APIs"].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-indigo-500/10 text-indigo-300 text-sm rounded-full">
                     {skill}
                   </span>
@@ -125,7 +132,7 @@ export default function About() {
             <div className="p-6 bg-white/5 rounded-lg border border-white/10">
               <h3 className="font-semibold text-slate-100 mb-3">Tools</h3>
               <div className="flex flex-wrap gap-2">
-                {["Git", "Docker", "AWS", "Vercel"].map((skill) => (
+                {["Git", "GitHub", "BitBucket", "Netlify", "scikit-learn", "GridSearchCV", "AWS", "Vercel"].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-indigo-500/10 text-indigo-300 text-sm rounded-full">
                     {skill}
                   </span>

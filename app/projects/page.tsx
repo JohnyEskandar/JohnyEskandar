@@ -26,122 +26,117 @@ const technicalProjects = [
         image: "/projects/unveil-ai.jpeg",
         github: "https://github.com/UnveilAI",
     },
-    // {
-    //     title: "multi-room chat server using Node.JS and Socket.IO (March 31st, 2025)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "JavaScript Calendar (March 19th, 2025)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "JavaScript Calculator (March 5th, 2025)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "Javascript Weather Widget (March 5th, 2025)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "Python Baseball Stats Counter (February 24th, 2025)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "News Website (February 17th, 2025)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "File Sharing Site (February 3th, 2025)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "Php Calculator (January 27th, 2025)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "C++ File System Simulation (Fall 2024)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "Ginemenasaurus (Summer 2024)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "Todo List (Summer 2024)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
-    // {
-    //     title: "Housing Price Predictor (Spring 2024)",
-    //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
-    //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
-    // },
+    {
+        title: "Socket.io Multi-Room Chat App (March 31st, 2025)",
+        description:
+            "A real-time multi-room chat application with support for private messaging, admin controls (kick, ban, unban), password-protected rooms, and profanity filtering. Built using vanilla JavaScript, Node.js, and Socket.io with a custom room management system and command-based chat bot for the global lobby.",
+        tags: ["Node.js", "Socket.io", "JavaScript", "HTML/CSS"],
+        image: "/projects/multi-room-chat.jpeg",
+        github: "https://github.com/cse330-spring-2025/module6b-group-module6-527267-520800",
+    },
+    {
+        title: "Collaborative Calendar App (March 19th, 2025)",
+        description:
+            "A secure, full-stack calendar web app that supports user signup, login, event management, and event sharing. Built using vanilla JavaScript (AJAX) and PHP, with robust session handling, CSRF protection, and SQL injection prevention via prepared statements. Users can add, edit, delete, and share events across accounts, all without page reloads.",
+        tags: ["JavaScript", "PHP", "MySQL", "AJAX", "HTML/CSS"],
+        image: "/projects/ajax-calendar.jpeg",
+        github: "https://github.com/cse330-spring-2025/module5-group-module5-520800-522054",
+        live: "http://ec2-18-221-198-3.us-east-2.compute.amazonaws.com/~johnyeskandar/module5-group-module5-520800-522054/calendar.html",
+    },
+    {
+        title: "JavaScript Calculator (March 5th, 2025)",
+        description:
+            "A fully client-side calculator built with vanilla JavaScript, HTML, and CSS. Handles real-time arithmetic operations based on user input, with dynamic result rendering and form state updates. Implements radio-button based operator selection and input event listeners for seamless, responsive interaction—demonstrating frontend reactivity without the need for external libraries or frameworks.",
+        tags: ["JavaScript", "DOM Manipulation", "Frontend", "HTML/CSS"],
+        image: "/projects/calculator.jpeg",
+        github: "https://github.com/cse330-spring-2025/module5-individual-JohnyEskandar/tree/main/Calculator",
+        live: "http://ec2-18-221-198-3.us-east-2.compute.amazonaws.com/~johnyeskandar/module5-individual-JohnyEskandar/Calculator/",
+    },
+    {
+        title: "Javascript Weather Widget (March 5th, 2025)",
+        description:
+            "A responsive JavaScript weather widget that fetches real-time data from a public API and displays local conditions, humidity, and multi-day forecasts. Implements dynamic DOM manipulation, image rendering based on weather codes, and modular CSS for a clean, accessible interface. Includes a manual refresh button and asynchronous data handling via `fetch` for a seamless user experience.",
+        tags: ["JavaScript", "Fetch API", "DOM Manipulation", "Asynchronous"],
+        image: "/projects/weather-widget.jpeg",
+        github: "https://github.com/cse330-spring-2025/module5-individual-JohnyEskandar/tree/main/Weather",
+        live: "http://ec2-18-221-198-3.us-east-2.compute.amazonaws.com/~johnyeskandar/module5-individual-JohnyEskandar/Weather/weather.html",
+    },
+    {
+        title: "Batting Average Analyzer (February 24th, 2025)",
+        description:
+            "A command-line Python tool that parses historical baseball box scores and computes batting averages across an entire season. Uses regex to extract structured player stats from unstructured text logs, and applies object-oriented principles to aggregate performance data and output a sorted leaderboard. Built to demonstrate precision in text parsing, CLI design, and statistical computation.",
+        tags: ["Python", "Regex", "CLI", "Data Processing"],
+        image: "/projects/batting-average-analyzer.jpeg",
+        github: "https://github.com/cse330-spring-2025/module4-JohnyEskandar",
+    },
+    {
+        title: "Secure News Website (February 17th, 2025)",
+        description:
+            "A full-stack PHP web app that enables users to register, post stories, comment, and engage with trending content. Built with session-based authentication, CSRF protection, and SQL prepared statements to guard against common web exploits. Features include story/comment editing and deletion, a dynamic likes system, and a trending posts module ranked by user engagement. Backed by a MySQL database with relational integrity and foreign key constraints.",
+        tags: ["PHP", "MySQL", "Sessions", "CSRF", "Web Security"],
+        image: "/projects/news-website.jpeg",
+        github: "https://github.com/cse330-spring-2025/module3-group-module3-520800",
+        live: "http://ec2-18-221-198-3.us-east-2.compute.amazonaws.com/~johnyeskandar/module3-group-module3-520800/login.php",
+    },
+    {
+        title: "Secure File Sharing System (February 3th, 2025)",
+        description:
+            "A multi-user PHP web application for secure file upload, viewing, and deletion. Implements session-based login, per-user storage isolation, and regex validation for file/user safety. Designed with FIEO and basic access control in mind, ensuring users can only interact with their own files. Includes custom account creation, a persistent username registry, and MIME-type enforcement to safely render uploaded content.",
+        tags: ["PHP", "Sessions", "File I/O", "Regex", "Access Control"],
+        image: "/projects/file-sharing-system.jpeg",
+        github: "https://github.comhttps://github.com/cse330-spring-2025/module2-group-module2-520033-520800",
+        live: "http://ec2-18-221-198-3.us-east-2.compute.amazonaws.com/~johnyeskandar/module2-group-module2-520033-520800/login.php",
+    },
+    {
+        title: "PHP Calculator (January 27th, 2025)",
+        description:
+            "A lightweight PHP web app that performs basic arithmetic operations using GET requests. Implements form-based user input and radio button controls for real-time addition, subtraction, multiplication, and division—complete with error handling for edge cases like divide-by-zero. Built as an early exploration of server-side scripting, input validation, and user-driven computation.",
+        tags: ["PHP", "Web Forms", "GET Requests", "Input Handling"],
+        image: "/projects/php-calculator.jpeg",
+        github: "https://github.com/cse330-spring-2025/module2-individual-JohnyEskandar",
+        live: "http://ec2-18-221-198-3.us-east-2.compute.amazonaws.com/~johnyeskandar/module2-individual-JohnyEskandar/calculator.php",
+    },
+    {
+        title: "MockOS: C++ File System Simulation (Fall 2024)",
+        description:
+            "Collaborative C++ static library simulating a basic file system with command-line operations. Implemented design patterns like Visitor, Factory, and Proxy to manage files, enforce access control, and handle commands such as ls, touch, cat, and macro operations.",
+        tags: ["C++", "Object-Oriented Programming", "Design Patterns", "CMake"],
+        image: "/projects/none.jpg",
+        github: "https://github.com/cse332s-fl24-wustl/oop-work-sophiaaarondaniel",
+    },
+    {
+        title: "Ginemenasaurus (Summer 2024)",
+        description:
+            "A full-stack gym workout generator built with React and Tailwind CSS, offering dynamic, science-based workout routines tailored to user-selected goals and muscle groups. Uses a custom-built exercise engine that draws from a structured dataset of compound and accessory movements, with support for rep/tempo/rest schemes. Features a clean, mobile-responsive UI with interactive animations and personalized progression tracking.",
+        tags: ["React", "Tailwind CSS", "Vite", "JavaScript"],
+        image: "/projects/gym-app.jpeg",
+        github: "https://github.comhttps://github.com/JohnyEskandar/Ginemenasaurus-Gym-App",
+        live: "https://je-gym.netlify.app/",
+    },
+    {
+        title: "Todo List (Summer 2024)",
+        description:
+            "Responsive web app for task management with localStorage persistence and full CRUD functionality. Built with React and Vite using modular components and custom CSS.",
+        tags: ["React", "Vite", "JavaScript", "localStorage"],
+        image: "/projects/todo-list.jpeg",
+        github: "https://github.com/JohnyEskandar/TodoList-Reactjs",
+        live: "https://je-todolist.netlify.app",
+    },
+    {
+        title: "Housing Price Predictor (Spring 2024)",
+        description:
+            "End-to-end data science project to predict housing prices in Melbourne using 13,000+ real listings. Cleaned and explored the data, engineered new features, and tested multiple models (Linear Regression, KNN, Decision Tree, Random Forest). Tuned hyperparameters with GridSearchCV and evaluated performance using RMSE and R². The best model—Random Forest—achieved strong results (RMSE: $289K, R²: 0.83).",
+        tags: ["Python", "scikit-learn", "Machine Learning", "Regression"],
+        image: "/projects/housing-price-predictor.jpeg",
+        github: "https://github.com/CSE217-SP24/hw-11-johnythomas",
+    },
     // {
     //     title: "Snake Game (Fall 2023)",
     //     description:
-    //         "Cross-platform mobile app for expense tracking with OCR receipt scanning, budget analytics, and cloud synchronization. Built with React Native and Firebase.",
-    //     tags: ["React Native", "Firebase", "OCR", "Chart.js"],
-    //     image: "/placeholder.svg?height=300&width=400",
+    //         "",
+    //     tags: [""],
+    //     image: "/projects/snake-game.jpeg",
     //     github: "https://github.com",
-    //     live: "https://apps.apple.com",
     // },
 ]
 
