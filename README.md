@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Hey, I'm Johny 👋
 
-## Getting Started
+I'm a junior at WashU studying Business + Computer Science, currently building on the Product Engineering team at LinkedIn for the summer. I like working at the intersection of data, product, and code, and I'm aiming for a SWE role after graduation with an eye toward product eventually.
 
-First, run the development server:
+**Right now I'm:**
+- Building out an open-source B2B media mix modeling platform at LinkedIn, connecting CRM and ad data to surface ROI insights
+- Digging into interpretability, specifically how refusal behavior is represented inside small LLMs (see LLM-Refusal-Research below)
+- Prepping for 2027 new grad recruiting
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Some things I've built:**
+- [Blendify](https://github.com/JohnyEskandar/Blendify) — full-stack Spotify playlist generator (Next.js, OAuth, RESTful APIs)
+- [Court Vision](https://github.com/JohnyEskandar/court-vision) — sports betting analytics tool that models win probabilities and finds market inefficiencies
+- [LLM-Refusal-Research](https://github.com/JohnyEskandar/LLM-Refusal-Research) — activation steering research on refusal directions in Qwen-1.8B
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Stack:** Python, JavaScript/TypeScript, SQL, C++, Java, React, Next.js, FastAPI, Node.js, AWS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📫 [Portfolio](https://johnyeskandar.com) · [LinkedIn](https://linkedin.com/in/e-johny)
