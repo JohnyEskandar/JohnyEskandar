@@ -40,7 +40,6 @@ const technicalProjects = [
             "Collaborative C++ static library simulating a basic file system with command-line operations. Implemented design patterns like Visitor, Factory, and Proxy to manage files, enforce access control, and handle commands such as ls, touch, cat, and macro operations.",
         tags: ["C++", "Object-Oriented Programming", "Design Patterns", "CMake"],
         image: "/projects/none.jpg",
-        github: "https://github.com/cse332s-fl24-wustl/oop-work-sophiaaarondaniel",
     },
 ]
 

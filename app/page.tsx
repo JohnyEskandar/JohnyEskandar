@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight, Github, Linkedin, Music } from "lucide-react"
+import { ArrowRight, Github, Linkedin } from "lucide-react"
 
 export default function Home() {
   return (
@@ -59,9 +59,6 @@ export default function Home() {
               >
                 <Linkedin className="h-6 w-6" />
               </a>
-              <Link href="/spotify" className="text-slate-400 hover:text-slate-50 transition-colors">
-                <Music className="h-6 w-6" />
-              </Link>
             </div>
           </div>
 
