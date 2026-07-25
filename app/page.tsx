@@ -17,7 +17,7 @@ export default function Home() {
               <div className="space-y-2">
                 <p className="text-xl sm:text-2xl text-slate-300 leading-relaxed max-w-2xl">
                   {/* eslint-disable-next-line react/no-unescaped-entities */}
-                  SWE Intern @ Mastercard • WashU '27 • Business + Computer Science
+                  SWE Intern @ LinkedIn • WashU '27 • Business + Computer Science
                 </p>
                 <p className="text-lg text-slate-400 leading-relaxed max-w-xl">
                   Building fast, data-driven tools—with a creator’s mindset and a competitor’s edge.

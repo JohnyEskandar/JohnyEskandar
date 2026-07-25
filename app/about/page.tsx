@@ -1,7 +1,6 @@
 import {
   Code,
   GraduationCapIcon as Graduation,
-  Target,
   Music,
   Video,
   Heart,
@@ -32,24 +31,21 @@ export default function About() {
             <div className="text-slate-300 space-y-4 leading-relaxed">
               <p>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                I'm a software engineer and student passionate about building scalable, impactful solutions. I specialize in frontend development and working with data, with experience in tools like React, Next.js, and TypeScript.
+                I'm a software engineer and student passionate about building scalable, data-driven products. I specialize in full stack development, with experience across React, Angular, and Next.js on the frontend, FastAPI and Node.js on the backend, and Python, PyTorch, and SQL for data and machine learning.
               </p>
               <p>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                I'm currently interning at Mastercard, where I’m helping launch a chatbot for enterprise clients using insights from over 550 million transactions a day. I’ve also shipped real product strategy, dashboards, and automation tools across product and data roles.
+                I'm currently a Software Engineer Intern at LinkedIn, working on an open-source B2B media mix modeling platform that connects advertising and CRM data to surface ROI insights for advertisers. Previously, I built fraud analytics dashboards at Mastercard and product tools at Whiting-Turner. Alongside that work, I've led independent research on LLM interpretability.
               </p>
               <p>
-                I’m actively pursuing roles in software engineering, product, and quantitative teams at top-tier companies, where I can apply my obsession with optimization and love for competitive problem solving.
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                I'm pursuing software engineering and product roles where I can take on hard technical problems that have real user impact. What drives me is optimization and competitive problem solving, so I gravitate toward teams working on exactly that.
               </p>
 
               <div className="pt-4 space-y-2">
                 <div className="flex items-center">
                   <Graduation className="h-5 w-5 text-indigo-400 mr-2" />
                   <span className="font-medium">Business + Computer Science @ WashU</span>
-                </div>
-                <div className="flex items-center">
-                  <Target className="h-5 w-5 text-indigo-400 mr-2" />
-                  <span className="font-medium">Targeting FAANG, quant, and high-growth startups</span>
                 </div>
               </div>
             </div>
@@ -132,7 +128,7 @@ export default function About() {
             <div className="p-6 bg-white/5 rounded-lg border border-white/10">
               <h3 className="font-semibold text-slate-100 mb-3">Tools</h3>
               <div className="flex flex-wrap gap-2">
-                {["Git", "GitHub", "BitBucket", "Netlify", "scikit-learn", "GridSearchCV", "AWS", "Vercel"].map((skill) => (
+                {["Git", "GitHub", "Cursor", "Claude Code", "Qlik", "BitBucket", "Netlify", "scikit-learn", "GridSearchCV", "AWS", "Vercel"].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-indigo-500/10 text-indigo-300 text-sm rounded-full">
                     {skill}
                   </span>
