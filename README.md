@@ -2,6 +2,8 @@
 
 Senior at WashU studying Business + Computer Science, minoring in Human-Computer Interaction. This past summer I was on the Ads Measurement team at LinkedIn. Co-founder and VP of WashU's Data Science Network. I like working at the intersection of data, product, and code, and I'm interviewing for new grad SWE roles for 2027.
 
+![Profile summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JohnyEskandar&theme=github_dark)
+
 **Some things I've built:**
 - [Nudge](https://github.com/JohnyEskandar/nudge) — group social planning app with venue recommendations, bill splitting, and agentic booking (React/Vite, Supabase)
 - [Job Application Agent](https://github.com/JohnyEskandar/job-application-agent) — agentic tool that reads job forms via the accessibility tree and generates fill plans gated by human approval, validated against 4 real ATS platforms (Python, Anthropic API, Playwright)
