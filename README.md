@@ -1,16 +1,11 @@
-### Hey, I'm Johny 👋
+### Johny Eskandar
 
-I'm a junior at WashU studying Business + Computer Science, currently building on the Product Engineering team at LinkedIn for the summer. I like working at the intersection of data, product, and code, and I'm aiming for a SWE role after graduation with an eye toward product eventually.
-
-**Right now I'm:**
-- Building out an open-source B2B media mix modeling platform at LinkedIn, connecting CRM and ad data to surface ROI insights
-- Digging into interpretability, specifically how refusal behavior is represented inside small LLMs (see LLM-Refusal-Research below)
-- Prepping for 2027 new grad recruiting
+Senior at WashU studying Business + Computer Science, minoring in Human-Computer Interaction. This past summer I was on the Ads Measurement team at LinkedIn. Co-founder and VP of WashU's Data Science Network. I like working at the intersection of data, product, and code, and I'm interviewing for new grad SWE roles for 2027.
 
 **Some things I've built:**
-- [Blendify](https://github.com/JohnyEskandar/Blendify) — full-stack Spotify playlist generator (Next.js, OAuth, RESTful APIs)
-- [Court Vision](https://github.com/JohnyEskandar/court-vision) — sports betting analytics tool that models win probabilities and finds market inefficiencies
-- [LLM-Refusal-Research](https://github.com/JohnyEskandar/LLM-Refusal-Research) — activation steering research on refusal directions in Qwen-1.8B
+- [Nudge](https://github.com/JohnyEskandar/nudge) — group social planning app with venue recommendations, bill splitting, and agentic booking (React/Vite, Supabase)
+- [Job Application Agent](https://github.com/JohnyEskandar/job-application-agent) — agentic tool that reads job forms via the accessibility tree and generates fill plans gated by human approval, validated against 4 real ATS platforms (Python, Anthropic API, Playwright)
+- [Geometry of LLM Refusal](https://github.com/JohnyEskandar/LLM-Refusal-Research) — activation steering research testing whether refusal in Qwen-1.8B-Chat is a single direction or a cone in activation space; found layer 14 drives 84-96% cross-category bypass rates (PyTorch, Hugging Face)
 
 **Stack:** Python, JavaScript/TypeScript, SQL, C++, Java, React, Next.js, FastAPI, Node.js, AWS
 
